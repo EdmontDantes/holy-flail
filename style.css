@@ -1,8 +1,11 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; /* google THIS*/
 }
 
 #app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   font-size: 5em;
   text-align: center;
   height: 100vh;
@@ -15,6 +18,8 @@
 }
 
 #middle {
+  display: flex;
+  justify-content: space-evenly;
   height: 60vh;
   width: 100vw;
 }
